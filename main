@@ -2,7 +2,7 @@ import random
 l = []
 Group = [['one'],['two'],['three'],['four'],['five'],['six'],['seven'],['eight']]
 while len(l)<41:
-    A = random.randint(1,42)
+    A = random.randint(1,41)
     if A not in l:
         l.append(A)
 k=0        
