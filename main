@@ -1,0 +1,16 @@
+import random
+l = []
+Group = [['one'],['two'],['three'],['four'],['five'],['six'],['seven'],['eight']]
+while len(l)<41:
+    A = random.randint(1,42)
+    if A not in l:
+        l.append(A)
+k=0        
+for i in range(len(Group)):
+    for j in range(5):
+        Group[i].append(l[j+k])
+    k+=5    
+for i in range(len(Group)):
+    print(Group[i])
+print('No Group =',l[-1])    
+          
